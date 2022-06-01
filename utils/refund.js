@@ -29,8 +29,7 @@ const requestRefund = async (transferId, estimatedReceivedAmt) => {
 
   return (
     axios
-      // Replace CBRIDGE_GATEWAY_URL
-      .post(`${process.env.CBRIDGE_GATEWAY_URL}/v1/withdrawLiquidity`, {
+      .post(`https://cbridge-prod2.celer.network/v1/withdrawLiquidity`, {
         ...req
       })
       .then((res) => {
@@ -41,6 +40,3 @@ const requestRefund = async (transferId, estimatedReceivedAmt) => {
       })
   );
 };
-
-// Replace with your input and uncomment
-// requestRefund('TRANSFER_ID', ESTIMATED_RECEIVED_AMT);
