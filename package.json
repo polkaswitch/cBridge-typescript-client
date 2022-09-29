@@ -1,24 +1,21 @@
 {
   "name": "cbridge-client",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "TypeScript and JavaScript client and examples for cBridge",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/celer-network/cBridge-typescript-client.git"
+    "url": "git+https://github.com/polkaswitch/cBridge-typescript-client.git"
   },
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/celer-network/cBridge-typescript-client/issues"
+    "url": "https://github.com/polkaswitch/cBridge-typescript-client"
   },
-  "homepage": "https://github.com/celer-network/cBridge-typescript-client#readme",
+  "homepage": "https://github.com/polkaswitch/cBridge-typescript-client/blob/main/README.md",
   "dependencies": {
-    "axios": "^0.26.1",
-    "dotenv": "^16.0.0",
-    "ethers": "^5.6.1",
-    "google-protobuf": "^3.20.0-rc.2"
+  
   },
   "devDependencies": {
-    "@types/node": "^17.0.23",
-    "ts-node": "^10.7.0"
+    "@types/node": "^16.0.0",
+    "ts-node": "^10.0.0"
   }
 }
